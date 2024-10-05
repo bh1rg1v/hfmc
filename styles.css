@@ -71,14 +71,21 @@ nav ul li a {
     color: white;
     background-color: #007BFF; /* Default blue background */
     border-radius: 25px; /* Rounded edges */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
-/* Hover effect */
-.select-category-buttons:hover {
-    background-color: #0056b3; /* Darker shade of blue on hover */
-    transform: scale(1.05); /* Slightly enlarge the button on hover */
+/* Hover effect for HNI button */
+.select-category-buttons:nth-child(1):hover {
+    background-color: #0056b3; /* Darker shade of blue for HNI button on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
+
+/* Hover effect for Mass Affluent button */
+.select-category-buttons:nth-child(2):hover {
+    background-color: #004080; /* Darker shade for Mass Affluent button on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
 
 
 section {
