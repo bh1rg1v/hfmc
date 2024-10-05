@@ -55,13 +55,12 @@ nav ul li a {
     font-size: 1.5em;
     margin-bottom: 20px;
 }
-.hero .btn-group {
-    display: flex;               /* Use flexbox to arrange buttons side by side */
-    justify-content: center;      /* Center the buttons horizontally */
-    gap: 10px;                    /* Add some space between the buttons */
-    margin-top: 20px;             /* Space between the buttons and the text above */
+.button-group {
+    display: flex; /* Use flexbox to arrange buttons side-by-side */
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 20px; /* Add space between the buttons */
 }
-/* Styling for the HNI and Mass Affluent buttons */
+
 .select-category-buttons {
     padding: 10px 20px;
     border: none;
@@ -85,8 +84,6 @@ nav ul li a {
     background-color: #004080; /* Darker shade for Mass Affluent button on hover */
     transform: scale(1.05); /* Slightly enlarge on hover */
 }
-
-
 
 section {
     padding: 40px 20px;
